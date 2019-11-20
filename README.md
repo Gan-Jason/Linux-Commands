@@ -132,7 +132,9 @@ chmod 755 hello.sh
 bash hello.sh
 ```
 * 
-
+### 时间  
+* 查看系统时间：date  
+* 查看硬件时间：hwclock  
 
 
 
