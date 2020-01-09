@@ -170,7 +170,16 @@ bash hello.sh
 * Linux下还提供了一个killall命令，可以直接使用进程的名字而不是进程标识号，例如：# killall -9 NAME
 
 
-
+## 文件下载
+### 下载文件
+* wget [url]  
+* curl -O [url] ,不加参数-O只会打印内容，不会下载，o大写  
+### 下载文件并重命名  
+* curl -o [新文件名] [url],o小写  
+* wget -O [新文件名] [url],O大写  
+### 续点重传  
+* curl -O -C -URL [url]，C大写   
+* wget -c [url]  ,c小写
 
 
 
